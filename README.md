@@ -4,7 +4,7 @@ This guide introduces Microsoft Excel as a beginner-friendly tool for basic data
 
 This workbook analyzes sales operations data to clean, enrich, analyze, and present insights through Excel-based analytics and an interactive dashboard.
 
-📊 Data Issues Identified
+Data Issues Identified
 
 Missing values in City, Salesperson, and Channel fields.
 
@@ -14,7 +14,7 @@ Inconsistent dates where RequiredDate occurred before OrderDate.
 
 Blank dimension values (e.g., SKU) affecting PivotTables and charts.
 
-🧹 Data Cleaning Rules Applied
+Data Cleaning Rules Applied
 
 Duplicates: Exact duplicate rows were removed using all columns as matching criteria.
 
@@ -30,7 +30,7 @@ Discounts: DiscountPct values above 30% were capped at 30% and flagged for revie
 
 Dates: RequiredDate earlier than OrderDate was corrected using a standardized lead-time rule.
 
-📐 Derived Fields & Calculations
+Derived Fields & Calculations
 
 Month / Quarter: Derived from OrderDate using custom formatting and IF logic.
 
@@ -42,7 +42,7 @@ PriceBand: Created using quantiles to classify products into Low, Medium, and Hi
 
 On-Time Flag: Orders flagged as on-time when LeadTimeDays ≤ 7.
 
-🔍 Analytical Methods Used
+Analytical Methods Used
 
 Cohort Analysis: Tracked monthly revenue from each country’s first active month.
 
@@ -56,7 +56,7 @@ Price Compliance: Measured share of orders with DiscountPct > 20% by Region and 
 
 Service Level Proxy: Calculated percentage of orders meeting a 7-day lead-time target.
 
-📈 Dashboard & Interactivity
+Dashboard & Interactivity
 
 Single-page interactive dashboard built using PivotTables and charts.
 
