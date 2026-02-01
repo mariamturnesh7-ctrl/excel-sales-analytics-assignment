@@ -1,6 +1,7 @@
 # excel-sales-analytics-assignment
 This guide introduces Microsoft Excel as a beginner-friendly tool for basic data analytics, covering data cleaning, formulas, pivot tables, and simple visualizations using real Excel examples.
-📌 Purpose
+
+Purpose
 
 This workbook analyzes sales operations data to clean, enrich, analyze, and present insights through Excel-based analytics and an interactive dashboard.
 
